@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.instagradient {
+  display: block;
+  background: linear-gradient(90deg, #f9d550, #da2f2b, #a92aae);
+  height: 1.2vh;
+}
+
+.blue-top-bg {
+  display: block;
+  background: #00C8D9;
+  height: 98.8vh;
+}

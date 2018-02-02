@@ -1,0 +1,13 @@
+.nav-wrapper {
+  background-color: #00C8D7;
+}
+
+.nav-wrapper ul li button {
+  font-size: 8pt;
+  color: #00C8D7;
+  border-radius: 15px;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}

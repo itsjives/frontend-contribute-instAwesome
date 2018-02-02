@@ -1,0 +1,21 @@
+.testimony {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+
+}
+
+.currentT {
+  display: block;
+  margin-top: 4%;
+  width: 50%;
+  height: 80%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.currentT p {
+  color: #00C8D7;
+}

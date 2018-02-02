@@ -1,0 +1,30 @@
+.inspired {
+  width: 100%;
+  height: 140px;
+  background-color: #85C968;
+  text-align: center;
+}
+
+.inspired-box {
+  width: 50%;
+  height: 80%;
+  margin-left: 25%;
+  background-color: #85C968;
+  border: 1px solid #85C968;
+}
+
+.inspired-box p {
+  color: white;
+  font-size: 14pt;
+  margin-top: 7%;
+}
+
+.inspired-box button {
+  font-size: 8pt;
+  color: #00C8D7;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 25px;
+}
