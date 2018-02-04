@@ -8,12 +8,20 @@
 }
 
 .instBox {
-    display: inline-block;
-    margin-top: 2%;
-    margin-right: 10px;
-    margin-left: 5px;
-    border: 1px solid black;
-    width: 23%;
-    height: 200px;
-    text-align: center;
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-left: 4%;
+  border: 1px solid black;
+  width: 20%;
+  height: 200px;
+  text-align: center;
+}
+
+.instBox:first-child {
+  margin-left: 4%;
+}
+
+.instBox:last-child {
+  margin-left: 4%;
 }

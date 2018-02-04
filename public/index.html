@@ -34,7 +34,22 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root"></div>
+    <div id="root">
+    <script type="text/javascript">
+      var text = ["Welcome", "Hi", "Sup dude"];
+      var counter = 0;
+      var elem = document.getElementById("changeText");
+      setInterval(change, 1000);
+
+      function change() {
+      elem.__Html = text[counter];
+      counter++;
+      if (counter >= text.length) {
+       counter = 0;
+      }
+      }
+    </script>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
